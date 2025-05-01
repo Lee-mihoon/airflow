@@ -1,4 +1,4 @@
-from airflow.sdk import DAG
+from airflow import DAG
 import datetime
 import pendulum
 from airflow.providers.standard.operators.bash import BashOperator
@@ -22,4 +22,4 @@ with DAG(
         bash_command="echo $HOSTNAME", 
     )
 
-    bash_t1 >> bash_t2 #수행순서
+    bash_t1 >> bash_t2 
