@@ -18,3 +18,4 @@ def regist2(name, sex, *args, **kwargs):
         print(email)
     if phone:
         print(phone)
+# common_func
