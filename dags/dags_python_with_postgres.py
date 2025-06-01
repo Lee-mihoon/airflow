@@ -31,3 +31,5 @@ with DAG(
     )
         
     insrt_postgres
+
+    #수정
