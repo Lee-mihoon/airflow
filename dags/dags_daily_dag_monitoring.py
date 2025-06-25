@@ -76,3 +76,5 @@ with DAG(
     )
 
     get_daily_monitoring_rslt_task() >> send_to_slack
+
+    #수정본
